@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@color/biru"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Latihan"
+                    android:textColor="@color/putih"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/button_play" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Klik Button untuk Memulai"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@color/biru"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textViewSoal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="What do speakers like?"
+                    android:textColor="@color/putih"
+                    android:textSize="20dp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" >
+
+                    <RadioButton
+                        android:id="@+id/radio0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/putih"
+                        android:text="Photo" />
+
+                    <RadioButton
+                        android:id="@+id/radio1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/putih"
+                        android:text="Video" />
+
+                    <RadioButton
+                        android:id="@+id/radio2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/putih"
+                        android:text="Bakso" />
+                    
+                    <RadioButton
+                        android:id="@+id/radio3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/putih"
+                        android:text="Solo City" />
+                    
+                    <RadioButton
+                        android:id="@+id/radio4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/putih"
+                        android:text="Radio" />
+                </RadioGroup>
+                
+                <Button
+                    android:id="@+id/buttonSubmit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="140dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Jawab" />
+                
+                <TextView
+                    android:id="@+id/textViewAnswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="The Answer"
+                    android:textColor="@color/putih"
+                    android:textSize="20dp" />
+                
+              
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@color/biru"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textViewSoal2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="What does the second speaker say?"
+                    android:textColor="@color/putih"
+                    android:textSize="20dp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" >
+
+                    <RadioButton
+                        android:id="@+id/radio5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/putih"
+                        android:text="I am too" />
+
+                    <RadioButton
+                        android:id="@+id/radio6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/putih"
+                        android:text="So am I" />
+
+                    <RadioButton
+                        android:id="@+id/radio7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/putih"
+                        android:text="I do too" />
+                    
+                    <RadioButton
+                        android:id="@+id/radio8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/putih"
+                        android:text="So do too" />
+                    
+                    <RadioButton
+                        android:id="@+id/radio9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/putih"
+                        android:text="So Do I" />
+                </RadioGroup>
+                
+                <Button
+                    android:id="@+id/buttonSubmit2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="140dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Jawab" />
+                
+                <TextView
+                    android:id="@+id/textViewAnswer2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="The Answer"
+                    android:textColor="@color/putih"
+                    android:textSize="20dp" />
+                
+              
+            </LinearLayout>
+            
+			<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/biru"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textViewSoal3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="What verb that says by the first speaker?"
+                    android:textColor="@color/putih"
+                    android:textSize="20dp" />
+				
+				<EditText
+				    android:id="@+id/editTextJawab"
+				    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="240dp"
+                    android:layout_marginLeft="5dp" />
+                
+                <Button
+                    android:id="@+id/buttonSubmit3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:width="140dp"                    
+                    android:text="Jawab" />
+                
+                <TextView
+                    android:id="@+id/textViewAnswer3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="The Answer"
+                    android:textColor="@color/putih"
+                    android:textSize="20dp" />
+                
+              
+            </LinearLayout>
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

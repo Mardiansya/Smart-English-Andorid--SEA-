@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@color/biru"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Kerjakan setelah membaca text"
+                    android:textColor="@color/putih"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@color/biru"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textViewSoal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="pertanyaan 1"
+                    android:textColor="@color/putih"
+                    android:textSize="20dp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" >
+
+                    <RadioButton
+                        android:id="@+id/radio0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="At night"
+                        android:textColor="@color/putih" />
+
+                    <RadioButton
+                        android:id="@+id/radio1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="In teh evening"
+                        android:textColor="@color/putih" />
+
+                    <RadioButton
+                        android:id="@+id/radio2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="In the morning"
+                        android:textColor="@color/putih" />
+
+                    <RadioButton
+                        android:id="@+id/radio3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="In the afternoon"
+                        android:textColor="@color/putih" />
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/buttonSubmit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Jawab"
+                    android:width="140dp" />
+
+                <TextView
+                    android:id="@+id/textViewAnswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="The Answer"
+                    android:textColor="@color/putih"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@color/biru"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textViewSoal2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="pertanyaan 2"
+                    android:textColor="@color/putih"
+                    android:textSize="20dp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" >
+
+                    <RadioButton
+                        android:id="@+id/radio4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="On the mountain"
+                        android:textColor="@color/putih" />
+
+                    <RadioButton
+                        android:id="@+id/radio5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Beside the road"
+                        android:textColor="@color/putih" />
+
+                    <RadioButton
+                        android:id="@+id/radio6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="At the garden"
+                        android:textColor="@color/putih" />
+
+                    <RadioButton
+                        android:id="@+id/radio7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="In the valley"
+                        android:textColor="@color/putih" />
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/buttonSubmit2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Jawab"
+                    android:width="140dp" />
+
+                <TextView
+                    android:id="@+id/textViewAnswer2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="The Answer"
+                    android:textColor="@color/putih"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@color/biru"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textViewSoal3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="pertanyaan 3"
+                    android:textColor="@color/putih"
+                    android:textSize="20dp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" >
+
+                    <RadioButton
+                        android:id="@+id/radio8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Teachers"
+                        android:textColor="@color/putih" />
+
+                    <RadioButton
+                        android:id="@+id/radio9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The girls scouts"
+                        android:textColor="@color/putih" />
+
+                    <RadioButton
+                        android:id="@+id/radio10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The boy scouts"
+                        android:textColor="@color/putih" />
+
+                    <RadioButton
+                        android:id="@+id/radio11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The leader of scout"
+                        android:textColor="@color/putih" />
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/buttonSubmit3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Jawab"
+                    android:width="140dp" />
+
+                <TextView
+                    android:id="@+id/textViewAnswer3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="The Answer"
+                    android:textColor="@color/putih"
+                    android:textSize="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rpl"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Splash"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" android:label="Smart English Android">
+            <intent-filter>
+                <action android:name="com.percobaan.percobaan.Main"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+      	<activity android:name=".Materi" android:label="Materi" />
+      	<activity android:name=".Latihan" android:label="Latihan" />
+      	<activity android:name=".Help" android:label="Bantuan"/>
+        
+        <activity android:name=".Tab_reading"/>
+        
+        <activity android:name=".Tab_tenses"/>
+        <activity android:name=".Tenses_1" android:label="Simple Present Tense"/>
+        <activity android:name=".Tenses_2" android:label="Present Continues Tense"/>
+        <activity android:name=".Tenses_3" android:label="Present Perfect Tense"/>
+        <activity android:name=".Tenses_4" android:label="Present Perfect Continues Tense"/>
+        <activity android:name=".Tenses_5" android:label="Simple Past Tense"/>
+        <activity android:name=".Tenses_6" android:label="Past Continues Tense"/>
+        <activity android:name=".Tenses_7" android:label="Past Perfect Tense"/>
+        <activity android:name=".Tenses_8" android:label="Past Perfect Continues Tense"/>
+        <activity android:name=".Tenses_9" android:label="Simple Future Tense"/>
+        <activity android:name=".Tenses_10" android:label="Future Continues Tense"/>
+        <activity android:name=".Tenses_11" android:label="Future Perfect Tense"/>
+        <activity android:name=".Tenses_12" android:label="Future Perfect Continues Tense"/>
+        
+        <activity android:name=".Tab_reading1" android:label="Narrative Text"/>
+        <activity android:name=".Tab_read1_text" />
+        <activity android:name=".Tab_read1_soal" />
+        <activity android:name=".Tab_read1_bahas" />
+        
+        <activity android:name=".Tab_reading2" android:label="Text Report"/>
+        <activity android:name=".Tab_read2_text" />
+        <activity android:name=".Tab_read2_soal" />
+        <activity android:name=".Tab_read2_bahas" />
+        
+        <activity android:name=".Tab_reading3" android:label="Recount"/>
+        <activity android:name=".Tab_read3_text" />
+        <activity android:name=".Tab_read3_soal" />
+        <activity android:name=".Tab_read3_bahas" />
+        
+        <activity android:name=".Tab_conver"/>
+        <activity android:name=".Conversation_1" android:label="Conversation 1"/>
+        <activity android:name=".Conversation_2" android:label="Conversation 2"/>
+        <activity android:name=".Conversation_3" android:label="Conversation 3"/>
+        <activity android:name=".Conversation_4" android:label="Conversation 4"/>
+        <activity android:name=".Conversation_5" android:label="Conversation 5"/>
+	        
+        <activity android:name=".Tab_lat_tenses1" android:label="Paket Soal Tenses 1"/>
+        <activity android:name=".Tab_lat_tenses1_soal" />
+        <activity android:name=".Tab_lat_tenses1_text" />
+        
+        
+        <activity android:name=".Tab_ban_petunjuk" android:label="Petunjuk"/>
+        <activity android:name=".Tab_ban_pemateri" />
+        <activity android:name=".Tab_ban_pelatihan" />
+        <activity android:name=".Tab_ban_penjawab" />
+        <activity android:name=".Tab_ban_about" android:label="About SEA"/>
+       	<activity android:name=".Tab_ban_asoft" />
+       	<activity android:name=".Tab_ban_amaker" />
+        
+    </application>
+</manifest>

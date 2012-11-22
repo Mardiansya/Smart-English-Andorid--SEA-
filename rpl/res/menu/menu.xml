@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Single menu item
+         Set id, icon and Title for each menu item
+    -->
+    <item android:id="@+id/menu_petunjuk"
+          android:icon="@drawable/petunjuk"
+          android:title="Petunjuk" />
+ 
+    <item android:id="@+id/menu_about"
+          android:icon="@drawable/about1"
+          android:title="About" />
+
+     <item android:id="@+id/menu_exit"
+          android:icon="@drawable/ic_launcher"
+          android:title="Keluar" />
+</menu>

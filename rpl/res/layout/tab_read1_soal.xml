@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@color/biru"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Kerjakan setelah membaca text"
+                    android:textColor="@color/putih"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+           
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@color/biru"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textViewSoal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="pertanyaan 1"
+                    android:textColor="@color/putih"
+                    android:textSize="20dp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" >
+
+                    <RadioButton
+                        android:id="@+id/radio0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/putih"
+                        android:text="To entertainer her guest" />
+
+                    <RadioButton
+                        android:id="@+id/radio1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/putih"
+                        android:text="To test the sheik’s food" />
+
+                    <RadioButton
+                        android:id="@+id/radio2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/putih"
+                        android:text="To see the sheik’s reaction" />
+                    
+                    <RadioButton
+                        android:id="@+id/radio3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/putih"
+                        android:text="To repay the sheik’s kidness" />
+                    
+                </RadioGroup>
+                
+                <Button
+                    android:id="@+id/buttonSubmit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="140dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Jawab" />
+                
+                <TextView
+                    android:id="@+id/textViewAnswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="The Answer"
+                    android:textColor="@color/putih"
+                    android:textSize="20dp" />
+                
+              
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@color/biru"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textViewSoal2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="pertanyaan 2"
+                    android:textColor="@color/putih"
+                    android:textSize="20dp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" >
+
+                    <RadioButton
+                        android:id="@+id/radio4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/putih"
+                        android:text="Don’t look someone from the appearance" />
+
+                    <RadioButton
+                        android:id="@+id/radio5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/putih"
+                        android:text="We should make a party to decide something" />
+
+                    <RadioButton
+                        android:id="@+id/radio6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/putih"
+                        android:text="Don’t easly to trust someone who has given the a valueble thing" />
+                    
+                    <RadioButton
+                        android:id="@+id/radio7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/putih"
+                        android:text="We have to be careful to choosing the person to chase our live with" />
+                                       
+                </RadioGroup>
+                
+                <Button
+                    android:id="@+id/buttonSubmit2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="140dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Jawab" />
+                
+                <TextView
+                    android:id="@+id/textViewAnswer2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="The Answer"
+                    android:textColor="@color/putih"
+                    android:textSize="20dp" />
+                
+              
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@color/biru"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textViewSoal3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="pertanyaan 3"
+                    android:textColor="@color/putih"
+                    android:textSize="20dp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" >
+
+                    <RadioButton
+                        android:id="@+id/radio8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/putih"
+                        android:text="Arabians" />
+
+                    <RadioButton
+                        android:id="@+id/radio9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/putih"
+                        android:text="Servants" />
+
+                    <RadioButton
+                        android:id="@+id/radio10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/putih"
+                        android:text="There sheiks" />
+                    
+                    <RadioButton
+                        android:id="@+id/radio11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/putih"
+                        android:text="Suitors" />
+                    
+                    
+                    
+                </RadioGroup>
+                
+                <Button
+                    android:id="@+id/buttonSubmit3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="140dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Jawab" />
+                
+                <TextView
+                    android:id="@+id/textViewAnswer3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="The Answer"
+                    android:textColor="@color/putih"
+                    android:textSize="20dp" />
+                
+              
+            </LinearLayout>
+            
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

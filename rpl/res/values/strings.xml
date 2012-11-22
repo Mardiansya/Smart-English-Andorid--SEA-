@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">SEA</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">SEA</string>
+	<string name="conver_label">Conversation</string>
+	<string name="reading_label">Reading</string>
+	<string name="tenses_label">Tenses</string>
+	<string name="struktur">Struktur Kalimat</string>
+	<string name="contoh">Contoh</string>
+	<color name="hitam">#000000</color>
+	<color name="biru1">#0f00ff</color>
+	<color name="biru2">#193279</color>
+	<color name="biru">#3360de</color>
+	<color name="putih">#ffffff</color>
+</resources>

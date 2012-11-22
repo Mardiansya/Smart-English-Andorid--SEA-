@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hitam"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/biru"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/struktur"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textViewVer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:text="1. S + Verb 1 (s/es) + O"
+                    android:textColor="@color/biru2"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/biru"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textViewC1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/contoh"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="0dp"
+                    android:text="+ I buy a banana"
+                    android:textColor="@color/biru2"
+                    android:textSize="22dp" />
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="39dp"
+                    android:layout_marginTop="0dp"
+                    android:text="- I do not buy a banana"
+                    android:textColor="@color/biru2"
+                    android:textSize="22dp" />
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="0dp"
+                    android:text=" ? Do I buy a banana?"
+                    android:textColor="@color/biru2"
+                    android:textSize="22dp" />
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="0dp"
+                    android:text="+ She reads novel"
+                    android:textColor="@color/biru2"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="39dp"
+                    android:layout_marginTop="0dp"
+                    android:text="- She does not read novel"
+                    android:textColor="@color/biru2"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="0dp"
+                    android:text=" ? Does she read novel?"
+                    android:textColor="@color/biru2"
+                    android:textSize="22dp" />
+            </LinearLayout>
+			<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textViewNom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:text="2. S + is/am/are + Adverb"
+                    android:textColor="@color/biru2"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/biru"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textViewC2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/contoh"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="0dp"
+                    android:text="+ I am a student"
+                    android:textColor="@color/biru2"
+                    android:textSize="22dp" />
+				<TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="39dp"
+                    android:layout_marginTop="0dp"
+                    android:text="- I am not a student"
+                    android:textColor="@color/biru2"
+                    android:textSize="22dp" />
+				<TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="0dp"
+                    android:text=" ? Am I a student?"
+                    android:textColor="@color/biru2"
+                    android:textSize="22dp" />
+                
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="0dp"
+                   	android:text="+ He is a doctor"
+                    android:textColor="@color/biru2"
+                    android:textSize="22dp" />
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="39dp"
+                    android:layout_marginTop="0dp"
+                    android:text="- He is not a doctor"
+                    android:textColor="@color/biru2"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="0dp"
+                    android:text=" ? Is he a doctor?"
+                    android:textColor="@color/biru2"
+                    android:textSize="22dp" />
+            </LinearLayout>
+            
+			
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
