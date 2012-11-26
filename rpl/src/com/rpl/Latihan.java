@@ -12,7 +12,7 @@ import android.widget.TabHost.TabSpec;
 
 public class Latihan extends ListActivity {
 
-	static final String[] daftarlatihan = new String[] { "Tenses 1","Tenses 2","Reading 1","Reading 2","So & Too","Either & Neither" };
+	static final String[] daftarlatihan = new String[] { "Tenses & Reading I","Tenses & Reading II","So & Too","Either & Neither" };
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -26,11 +26,17 @@ public class Latihan extends ListActivity {
 		Object detail = this.getListAdapter().getItem(position);
 		String tampil = detail.toString();
 		Intent i = null;
-		if (tampil == "Tenses 1") {
+		if (tampil == "Tenses & Reading I") {
 			i = new Intent(this, Tab_lat_tenses1.class);
 			startActivity(i);
-		} else if (tampil == "Tenses 2") {
-			i = new Intent(this, Tab_ban_about.class);
+		} else if (tampil == "Tenses & Reading II") {
+			i = new Intent(this, Tab_lat_tenses2.class);
+			startActivity(i);			
+		} else if (tampil == "So & Too") {
+			i = new Intent(this, Tab_lat_conver1.class);
+			startActivity(i);
+		} else if (tampil == "Either & Neither") {
+			i = new Intent(this, Tab_lat_conver2.class);
 			startActivity(i);
 		} else {
 			Toast.makeText(this, "Anda Memilih : " + tampil, Toast.LENGTH_SHORT)

@@ -1,33 +1,41 @@
 package com.rpl;
 
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.app.AlertDialog.Builder;
-import android.content.DialogInterface;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 
-public class Tab_lat_tenses1_soal extends Activity implements
-		OnCheckedChangeListener {
-
+public class Tab_lat_conver1 extends Activity implements
+OnCheckedChangeListener {
+	
 	TextView hasil, jawaban, jawaban2, jawaban3, jawaban4, jawaban5, jawaban6,
-			jawaban7, jawaban8, jawaban9, jawaban10;
-	RadioGroup pilihan, pilihan2, pilihan3, pilihan4, pilihan5, pilihan6,
-			pilihan7, pilihan8, pilihan9, pilihan10;
+		jawaban7, jawaban8, jawaban9, jawaban10;	
+	RadioGroup pilihan, pilihan2, pilihan4, pilihan6, pilihan8, pilihan9;
+	EditText pilihan3, pilihan5, pilihan7, pilihan10;
 	int nilai = 0;
-
+		
+	String kunci_pilihan3="like";
+	String kunci_pilihan5="like";
+	String kunci_pilihan7="like";
+	String kunci_pilihan10="like";
+	String Spilihan3, Spilihan5, Spilihan7, Spilihan10;
+	
+	private MediaPlayer player;
+	//private Button musikButton;
+	private static final String isPlaying = "Media is Playing";
+	
 	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		// TODO Auto-generated method stub
+	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.tab_lat_tenses1_soal);
-
+		setContentView(R.layout.tab_lat_conver1);
+		
 		TextView soal1 = (TextView) findViewById(R.id.textViewSoal);
 		String msg = "(..1..)";
 		soal1.setText(msg);
@@ -61,46 +69,76 @@ public class Tab_lat_tenses1_soal extends Activity implements
 		soal8.setText(msg8);
 
 		TextView soal9 = (TextView) findViewById(R.id.textViewSoal9);
-		String msg9 = "What is the purpose of the text? It is to...";
+		String msg9 = "Complete the sentence! (..9..)";
 		soal9.setText(msg9);
 
 		TextView soal10 = (TextView) findViewById(R.id.textViewSoal10);
-		String msg10 = "Annes is one of the… of George VI";
+		String msg10 = "Complete the sentence! (..10..)";
 		soal10.setText(msg10);
-
+		
 		pilihan = (RadioGroup) findViewById(R.id.radioGroup1);
 		pilihan.setOnCheckedChangeListener(this);
 
 		pilihan2 = (RadioGroup) findViewById(R.id.radioGroup2);
 		pilihan2.setOnCheckedChangeListener(this);
 
-		pilihan3 = (RadioGroup) findViewById(R.id.radioGroup3);
-		pilihan3.setOnCheckedChangeListener(this);
-
-		pilihan3 = (RadioGroup) findViewById(R.id.radioGroup3);
-		pilihan3.setOnCheckedChangeListener(this);
-
 		pilihan4 = (RadioGroup) findViewById(R.id.radioGroup4);
 		pilihan4.setOnCheckedChangeListener(this);
 
-		pilihan5 = (RadioGroup) findViewById(R.id.radioGroup5);
-		pilihan5.setOnCheckedChangeListener(this);
-
 		pilihan6 = (RadioGroup) findViewById(R.id.radioGroup6);
 		pilihan6.setOnCheckedChangeListener(this);
-
-		pilihan7 = (RadioGroup) findViewById(R.id.radioGroup7);
-		pilihan7.setOnCheckedChangeListener(this);
 
 		pilihan8 = (RadioGroup) findViewById(R.id.radioGroup8);
 		pilihan8.setOnCheckedChangeListener(this);
 
 		pilihan9 = (RadioGroup) findViewById(R.id.radioGroup9);
 		pilihan9.setOnCheckedChangeListener(this);
+		
+		pilihan3 = (EditText) findViewById(R.id.editTextJawab3);
+		pilihan5 = (EditText) findViewById(R.id.editTextJawab5);
+		pilihan7 = (EditText) findViewById(R.id.editTextJawab7);
+		pilihan10 = (EditText) findViewById(R.id.editTextJawab10);
 
-		pilihan10 = (RadioGroup) findViewById(R.id.radioGroup10);
-		pilihan10.setOnCheckedChangeListener(this);
+		Button conver1 = (Button) findViewById(R.id.buttonConver1);
+		conver1.setOnClickListener(new OnClickListener() {
 
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				playSound(1);
+			}
+
+		});
+		
+		Button conver2 = (Button) findViewById(R.id.buttonConver2);
+		conver2.setOnClickListener(new OnClickListener() {
+
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				playSound(2);
+			}
+
+		});
+		
+		Button conver3 = (Button) findViewById(R.id.buttonConver3);
+		conver3.setOnClickListener(new OnClickListener() {
+
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				playSound(3);
+			}
+
+		});
+		
+		Button conver4 = (Button) findViewById(R.id.buttonConver4);
+		conver4.setOnClickListener(new OnClickListener() {
+
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				playSound(4);
+			}
+
+		});
+		
 		hasil = (TextView) findViewById(R.id.textViewHasil);
 		jawaban = (TextView) findViewById(R.id.textViewAnswer);
 		jawaban2 = (TextView) findViewById(R.id.textViewAnswer2);
@@ -125,83 +163,106 @@ public class Tab_lat_tenses1_soal extends Activity implements
 		});
 
 	}
-
+	
+	private void playSound(int arg) {
+		if (arg == 1) {
+			Toast.makeText(this, isPlaying + " Conversation 1", Toast.LENGTH_LONG).show();
+			player = MediaPlayer.create(this, R.raw.c3);
+		} else if(arg == 2) {
+			Toast.makeText(this, isPlaying + " Conversation 2", Toast.LENGTH_LONG).show();
+			player = MediaPlayer.create(this, R.raw.c4);
+		} else if(arg == 3) {
+			Toast.makeText(this, isPlaying + " Conversation 3", Toast.LENGTH_LONG).show();
+			player = MediaPlayer.create(this, R.raw.c5);
+		} else if(arg == 4) {
+			Toast.makeText(this, isPlaying + " Conversation 4", Toast.LENGTH_LONG).show();
+			player = MediaPlayer.create(this, R.raw.c6);
+		}
+		player.setLooping(false); // Set looping
+		player.start();
+	}
+	
 	private void koreksi() {
 		// TODO Auto-generated method stub
-		if (pilihan.getCheckedRadioButtonId() == R.id.radio2) {
+		if (pilihan.getCheckedRadioButtonId() == R.id.radio0) {
 			jawaban.setText("Right");
 			nilai += 10;
 		} else {
 			jawaban.setText("Wrong");
 		}
 
-		if (pilihan2.getCheckedRadioButtonId() == R.id.radio6) {
+		if (pilihan2.getCheckedRadioButtonId() == R.id.radio4) {
 			jawaban2.setText("Right");
 			nilai += 10;
 		} else {
 			jawaban2.setText("Wrong");
-		}
+		}		
 
-		if (pilihan3.getCheckedRadioButtonId() == R.id.radio10) {
-			jawaban3.setText("Right");
-			nilai += 10;
-		} else {
-			jawaban3.setText("Wrong");
-		}
-
-		if (pilihan4.getCheckedRadioButtonId() == R.id.radio15) {
+		if (pilihan4.getCheckedRadioButtonId() == R.id.radio8) {
 			jawaban4.setText("Right");
 			nilai += 10;
 		} else {
 			jawaban4.setText("Wrong");
-		}
+		}		
 
-		if (pilihan5.getCheckedRadioButtonId() == R.id.radio19) {
-			jawaban5.setText("Right");
-			nilai += 10;
-		} else {
-			jawaban5.setText("Wrong");
-		}
-
-		if (pilihan6.getCheckedRadioButtonId() == R.id.radio23) {
+		if (pilihan6.getCheckedRadioButtonId() == R.id.radio12) {
 			jawaban6.setText("Right");
 			nilai += 10;
 		} else {
 			jawaban6.setText("Wrong");
-		}
+		}	
 
-		if (pilihan7.getCheckedRadioButtonId() == R.id.radio27) {
-			jawaban7.setText("Right");
-			nilai += 10;
-		} else {
-			jawaban7.setText("Wrong");
-		}
-
-		if (pilihan8.getCheckedRadioButtonId() == R.id.radio31) {
+		if (pilihan8.getCheckedRadioButtonId() == R.id.radio16) {
 			jawaban8.setText("Right");
 			nilai += 10;
 		} else {
 			jawaban8.setText("Wrong");
 		}
 
-		if (pilihan9.getCheckedRadioButtonId() == R.id.radio35) {
+		if (pilihan9.getCheckedRadioButtonId() == R.id.radio20) {
 			jawaban9.setText("Right");
 			nilai += 10;
 		} else {
 			jawaban9.setText("Wrong");
+		}	
+		
+		Spilihan3 = pilihan3.getText().toString();
+		if(Spilihan3.equals(kunci_pilihan3)){
+			jawaban3.setText("Right");
+			nilai += 10;
+		} else {
+			jawaban3.setText("Wrong");
 		}
-
-		if (pilihan10.getCheckedRadioButtonId() == R.id.radio38) {
+		
+		Spilihan5 = pilihan5.getText().toString();
+		if(Spilihan5.equals(kunci_pilihan5)){
+			jawaban5.setText("Right");
+			nilai += 10;
+		} else {
+			jawaban5.setText("Wrong");
+		}
+		
+		Spilihan7 = pilihan7.getText().toString();
+		if(Spilihan7.equals(kunci_pilihan7)){
+			jawaban7.setText("Right");
+			nilai += 10;
+		} else {
+			jawaban7.setText("Wrong");
+		}
+		
+		Spilihan10 = pilihan10.getText().toString();
+		if(Spilihan10.equals(kunci_pilihan10)){
 			jawaban10.setText("Right");
 			nilai += 10;
 		} else {
 			jawaban10.setText("Wrong");
 		}
-
 	}
 
-	public void onCheckedChanged(RadioGroup group, int checkedId) {
+	public void onCheckedChanged(RadioGroup arg0, int arg1) {
 		// TODO Auto-generated method stub
+		
 	}
+
 
 }

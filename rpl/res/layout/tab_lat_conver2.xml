@@ -22,13 +22,34 @@
                 android:orientation="vertical" >
 
                 <TextView
-                    android:id="@+id/textView1"
+                    android:id="@+id/textViewJudul"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="5dp"
-                    android:text="Kerjakan setelah membaca text"
+                    android:text="Latihan"
                     android:textColor="@color/putih"
-                    android:textSize="20dp" />
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/buttonConver1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/button_play" />
+
+                <TextView
+                    android:id="@+id/textViewConver1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Klik Button untuk Memulai"
+                    android:textSize="15dp" />
             </LinearLayout>
 
             <LinearLayout
@@ -43,7 +64,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:text="pertanyaan 1"
+                    android:text="What do speakers like?"
                     android:textColor="@color/putih"
                     android:textSize="20dp" />
 
@@ -57,30 +78,30 @@
                         android:id="@+id/radio0"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Easy"
+                        android:text="Photo"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Easier"
+                        android:text="Video"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Easiest"
+                        android:text="Bakso"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="More easy"
-                        android:textColor="@color/putih" />
-                </RadioGroup>
+                        android:text="Solo City"
+                        android:textColor="@color/putih" />                   
+                </RadioGroup>                           
             </LinearLayout>
 
             <LinearLayout
@@ -95,7 +116,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:text="pertanyaan 2"
+                    android:text="What does the second speaker say?"
                     android:textColor="@color/putih"
                     android:textSize="20dp" />
 
@@ -109,36 +130,36 @@
                         android:id="@+id/radio4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="But"
+                        android:text="I am too"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="However"
+                        android:text="So am I"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Although"
-                        android:textColor="@color/putih" />
+                        android:text="I do too"
+                        android:textColor="@color/putih" />                   
 
                     <RadioButton
                         android:id="@+id/radio7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Therefore"
+                        android:text="So Do I"
                         android:textColor="@color/putih" />
-                </RadioGroup>
+                </RadioGroup>                
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
+                android:layout_marginBottom="5dp"                
                 android:background="@color/biru"
                 android:orientation="vertical" >
 
@@ -147,46 +168,41 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:text="pertanyaan 3"
+                    android:text="What verb that says by the first speaker?"
                     android:textColor="@color/putih"
                     android:textSize="20dp" />
 
-                <RadioGroup
-                    android:id="@+id/radioGroup3"
+                <EditText
+                    android:id="@+id/editTextJawab3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="5dp" >
+                    android:layout_marginLeft="5dp"
+                    android:width="240dp" />
 
-                    <RadioButton
-                        android:id="@+id/radio8"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Call"
-                        android:textColor="@color/putih" />
-
-                    <RadioButton
-                        android:id="@+id/radio9"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Calls"
-                        android:textColor="@color/putih" />
-
-                    <RadioButton
-                        android:id="@+id/radio10"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Called"
-                        android:textColor="@color/putih" />
-
-                    <RadioButton
-                        android:id="@+id/radio11"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Calling"
-                        android:textColor="@color/putih" />
-                </RadioGroup>
             </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal" >
 
+                <Button
+                    android:id="@+id/buttonConver2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/button_play" />
+
+                <TextView
+                    android:id="@+id/textViewConver2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Klik Button untuk Memulai"
+                    android:textSize="15dp" />
+            </LinearLayout>
+            
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -199,7 +215,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:text="pertanyaan 4"
+                    android:text="Pertanyaan4"
                     android:textColor="@color/putih"
                     android:textSize="20dp" />
 
@@ -210,39 +226,38 @@
                     android:layout_marginLeft="5dp" >
 
                     <RadioButton
-                        android:id="@+id/radio12"
+                        android:id="@+id/radio8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Call"
+                        android:text="Photo"
                         android:textColor="@color/putih" />
 
                     <RadioButton
-                        android:id="@+id/radio13"
+                        android:id="@+id/radio9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Calls"
+                        android:text="Video"
                         android:textColor="@color/putih" />
 
                     <RadioButton
-                        android:id="@+id/radio14"
+                        android:id="@+id/radio10"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Called"
+                        android:text="Bakso"
                         android:textColor="@color/putih" />
 
                     <RadioButton
-                        android:id="@+id/radio15"
+                        android:id="@+id/radio11"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Calling"
-                        android:textColor="@color/putih" />
-                </RadioGroup>
+                        android:text="Solo City"
+                        android:textColor="@color/putih" />                   
+                </RadioGroup>                           
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
+                android:layout_marginBottom="5dp"                
                 android:background="@color/biru"
                 android:orientation="vertical" >
 
@@ -251,46 +266,41 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:text="pertanyaan 5"
+                    android:text="Pertanyaan 5"
                     android:textColor="@color/putih"
                     android:textSize="20dp" />
 
-                <RadioGroup
-                    android:id="@+id/radioGroup5"
+                <EditText
+                    android:id="@+id/editTextJawab5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="5dp" >
+                    android:layout_marginLeft="5dp"
+                    android:width="240dp" />
 
-                    <RadioButton
-                        android:id="@+id/radio16"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Call"
-                        android:textColor="@color/putih" />
-
-                    <RadioButton
-                        android:id="@+id/radio17"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Calls"
-                        android:textColor="@color/putih" />
-
-                    <RadioButton
-                        android:id="@+id/radio18"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Called"
-                        android:textColor="@color/putih" />
-
-                    <RadioButton
-                        android:id="@+id/radio19"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Calling"
-                        android:textColor="@color/putih" />
-                </RadioGroup>
             </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal" >
 
+                <Button
+                    android:id="@+id/buttonConver3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/button_play" />
+
+                <TextView
+                    android:id="@+id/textViewConver3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Klik Button untuk Memulai"
+                    android:textSize="15dp" />
+            </LinearLayout>
+            
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -303,7 +313,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:text="pertanyaan 6"
+                    android:text="Pertanyaan 6"
                     android:textColor="@color/putih"
                     android:textSize="20dp" />
 
@@ -314,39 +324,38 @@
                     android:layout_marginLeft="5dp" >
 
                     <RadioButton
-                        android:id="@+id/radio20"
+                        android:id="@+id/radio12"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Call"
+                        android:text="Photo"
                         android:textColor="@color/putih" />
 
                     <RadioButton
-                        android:id="@+id/radio21"
+                        android:id="@+id/radio13"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Calls"
+                        android:text="Video"
                         android:textColor="@color/putih" />
 
                     <RadioButton
-                        android:id="@+id/radio22"
+                        android:id="@+id/radio14"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Called"
+                        android:text="Bakso"
                         android:textColor="@color/putih" />
 
                     <RadioButton
-                        android:id="@+id/radio23"
+                        android:id="@+id/radio15"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Calling"
-                        android:textColor="@color/putih" />
-                </RadioGroup>
+                        android:text="Solo City"
+                        android:textColor="@color/putih" />                   
+                </RadioGroup>                           
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
+                android:layout_marginBottom="5dp"                
                 android:background="@color/biru"
                 android:orientation="vertical" >
 
@@ -355,46 +364,41 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:text="pertanyaan 7"
+                    android:text="Pertanyaan 7"
                     android:textColor="@color/putih"
                     android:textSize="20dp" />
 
-                <RadioGroup
-                    android:id="@+id/radioGroup7"
+                <EditText
+                    android:id="@+id/editTextJawab7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="5dp" >
+                    android:layout_marginLeft="5dp"
+                    android:width="240dp" />
 
-                    <RadioButton
-                        android:id="@+id/radio24"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Call"
-                        android:textColor="@color/putih" />
-
-                    <RadioButton
-                        android:id="@+id/radio25"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Calls"
-                        android:textColor="@color/putih" />
-
-                    <RadioButton
-                        android:id="@+id/radio26"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Called"
-                        android:textColor="@color/putih" />
-
-                    <RadioButton
-                        android:id="@+id/radio27"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Calling"
-                        android:textColor="@color/putih" />
-                </RadioGroup>
             </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal" >
 
+                <Button
+                    android:id="@+id/buttonConver4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/button_play" />
+
+                <TextView
+                    android:id="@+id/textViewConver4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Klik Button untuk Memulai"
+                    android:textSize="15dp" />
+            </LinearLayout>
+            
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -407,7 +411,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:text="pertanyaan 8"
+                    android:text="Pertanyaan 8"
                     android:textColor="@color/putih"
                     android:textSize="20dp" />
 
@@ -418,35 +422,34 @@
                     android:layout_marginLeft="5dp" >
 
                     <RadioButton
-                        android:id="@+id/radio28"
+                        android:id="@+id/radio16"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Call"
+                        android:text="Photo"
                         android:textColor="@color/putih" />
 
                     <RadioButton
-                        android:id="@+id/radio29"
+                        android:id="@+id/radio17"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Calls"
+                        android:text="Video"
                         android:textColor="@color/putih" />
 
                     <RadioButton
-                        android:id="@+id/radio30"
+                        android:id="@+id/radio18"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Called"
+                        android:text="Bakso"
                         android:textColor="@color/putih" />
 
                     <RadioButton
-                        android:id="@+id/radio31"
+                        android:id="@+id/radio19"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Calling"
-                        android:textColor="@color/putih" />
-                </RadioGroup>
+                        android:text="Solo City"
+                        android:textColor="@color/putih" />                   
+                </RadioGroup>                           
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -459,7 +462,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:text="pertanyaan 9"
+                    android:text="Pertanyaan 10"
                     android:textColor="@color/putih"
                     android:textSize="20dp" />
 
@@ -470,39 +473,38 @@
                     android:layout_marginLeft="5dp" >
 
                     <RadioButton
-                        android:id="@+id/radio32"
+                        android:id="@+id/radio20"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Describe a particular person"
+                        android:text="Photo"
                         android:textColor="@color/putih" />
 
                     <RadioButton
-                        android:id="@+id/radio33"
+                        android:id="@+id/radio21"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Entertain the reader"
+                        android:text="Video"
                         android:textColor="@color/putih" />
 
                     <RadioButton
-                        android:id="@+id/radio34"
+                        android:id="@+id/radio22"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Inform on a successfull person"
+                        android:text="Bakso"
                         android:textColor="@color/putih" />
 
                     <RadioButton
-                        android:id="@+id/radio35"
+                        android:id="@+id/radio23"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Tell someones experience"
-                        android:textColor="@color/putih" />
-                </RadioGroup>
+                        android:text="Solo City"
+                        android:textColor="@color/putih" />                   
+                </RadioGroup>                           
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
+                android:layout_marginBottom="5dp"                
                 android:background="@color/biru"
                 android:orientation="vertical" >
 
@@ -511,46 +513,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:text="pertanyaan 10"
+                    android:text="What verb that says by the first speaker?"
                     android:textColor="@color/putih"
                     android:textSize="20dp" />
 
-                <RadioGroup
-                    android:id="@+id/radioGroup10"
+                <EditText
+                    android:id="@+id/editTextJawab10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="5dp" >
+                    android:layout_marginLeft="5dp"
+                    android:width="240dp" />
 
-                    <RadioButton
-                        android:id="@+id/radio36"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Sisters"
-                        android:textColor="@color/putih" />
-
-                    <RadioButton
-                        android:id="@+id/radio37"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Nieces"
-                        android:textColor="@color/putih" />
-
-                    <RadioButton
-                        android:id="@+id/radio38"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Granddaugters"
-                        android:textColor="@color/putih" />
-
-                    <RadioButton
-                        android:id="@+id/radio39"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Daughters"
-                        android:textColor="@color/putih" />
-                </RadioGroup>
             </LinearLayout>
-
+            
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

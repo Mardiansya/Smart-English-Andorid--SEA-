@@ -13,7 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 
-public class Tab_lat_tenses1_soal extends Activity implements
+public class Tab_lat_tenses2_soal extends Activity implements
 		OnCheckedChangeListener {
 
 	TextView hasil, jawaban, jawaban2, jawaban3, jawaban4, jawaban5, jawaban6,
@@ -26,7 +26,7 @@ public class Tab_lat_tenses1_soal extends Activity implements
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.tab_lat_tenses1_soal);
+		setContentView(R.layout.tab_lat_tenses2_soal);
 
 		TextView soal1 = (TextView) findViewById(R.id.textViewSoal);
 		String msg = "(..1..)";
@@ -61,11 +61,11 @@ public class Tab_lat_tenses1_soal extends Activity implements
 		soal8.setText(msg8);
 
 		TextView soal9 = (TextView) findViewById(R.id.textViewSoal9);
-		String msg9 = "What is the purpose of the text? It is to...";
+		String msg9 = "Complete the sentence! (..9..)";
 		soal9.setText(msg9);
 
 		TextView soal10 = (TextView) findViewById(R.id.textViewSoal10);
-		String msg10 = "Annes is one of the… of George VI";
+		String msg10 = "Complete the sentence! (..10..)";
 		soal10.setText(msg10);
 
 		pilihan = (RadioGroup) findViewById(R.id.radioGroup1);
@@ -191,7 +191,7 @@ public class Tab_lat_tenses1_soal extends Activity implements
 			jawaban9.setText("Wrong");
 		}
 
-		if (pilihan10.getCheckedRadioButtonId() == R.id.radio38) {
+		if (pilihan10.getCheckedRadioButtonId() == R.id.radio36) {
 			jawaban10.setText("Right");
 			nilai += 10;
 		} else {

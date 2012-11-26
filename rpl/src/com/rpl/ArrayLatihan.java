@@ -32,18 +32,14 @@ public class ArrayLatihan extends ArrayAdapter<String> {
  
 		System.out.println(s);
 		
-		if (s.equals("Tenses 1")) {
+		if (s.equals("Tenses & Reading I")) {
 			imageView.setImageResource(R.drawable.tenses);
-		} else if (s.equals("Tenses 2")) {
+		} else if (s.equals("Tenses & Reading II")) {
 			imageView.setImageResource(R.drawable.tenses);
-		} else if (s.equals("Reading 1")) {
-			imageView.setImageResource(R.drawable.reading);
-		} else if (s.equals("Reading 2")) {
-			imageView.setImageResource(R.drawable.reading);
 		} else if (s.equals("So & Too")) {
-			imageView.setImageResource(R.drawable.help);
+			imageView.setImageResource(R.drawable.conver2);
 		} else if (s.equals("Either & Neither")) {
-			imageView.setImageResource(R.drawable.help);
+			imageView.setImageResource(R.drawable.conver2);
 		} else {
 			imageView.setImageResource(R.drawable.help);
 		}

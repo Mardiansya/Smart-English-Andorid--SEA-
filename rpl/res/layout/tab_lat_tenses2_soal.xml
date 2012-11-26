@@ -473,28 +473,28 @@
                         android:id="@+id/radio32"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Describe a particular person"
+                        android:text="having"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio33"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Entertain the reader"
+                        android:text="had"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio34"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Inform on a successfull person"
+                        android:text="have"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio35"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Tell someones experience"
+                        android:text="has"
                         android:textColor="@color/putih" />
                 </RadioGroup>
             </LinearLayout>
@@ -525,28 +525,28 @@
                         android:id="@+id/radio36"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Sisters"
+                        android:text="protect"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio37"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Nieces"
+                        android:text="protects"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio38"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Granddaugters"
+                        android:text="protected"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio39"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Daughters"
+                        android:text="protecting"
                         android:textColor="@color/putih" />
                 </RadioGroup>
             </LinearLayout>
@@ -571,7 +571,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:layout_gravity="center"
                     android:text="Score"
                     android:textColor="@color/putih"
                     android:textSize="25dp" />
