@@ -1,5 +1,7 @@
 package com.rpl;
 
+import com.rpl.R.id;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
@@ -29,43 +31,43 @@ public class Tab_lat_tenses1_soal extends Activity implements
 		setContentView(R.layout.tab_lat_tenses1_soal);
 
 		TextView soal1 = (TextView) findViewById(R.id.textViewSoal);
-		String msg = "(..1..)";
+		String msg = "Her father often (..1..) home late.";
 		soal1.setText(msg);
 
 		TextView soal2 = (TextView) findViewById(R.id.textViewSoal2);
-		String msg2 = "(..2..)";
+		String msg2 = "He bought a magazine. And you? Did you (..2..) a magazine too?";
 		soal2.setText(msg2);
 
 		TextView soal3 = (TextView) findViewById(R.id.textViewSoal3);
-		String msg3 = "(..3..)";
+		String msg3 = "I (..3..) him for a long time.";
 		soal3.setText(msg3);
 
 		TextView soal4 = (TextView) findViewById(R.id.textViewSoal4);
-		String msg4 = "(..3..)";
+		String msg4 = "They (..4..) for Sydney tomorrow";
 		soal4.setText(msg4);
 
 		TextView soal5 = (TextView) findViewById(R.id.textViewSoal5);
-		String msg5 = "(..3..)";
+		String msg5 = "I will wait till you (..5..) your lunch.";
 		soal5.setText(msg5);
 
 		TextView soal6 = (TextView) findViewById(R.id.textViewSoal6);
-		String msg6 = "(..3..)";
+		String msg6 = "(..6..) you meet your grandmother last month?";
 		soal6.setText(msg6);
 
 		TextView soal7 = (TextView) findViewById(R.id.textViewSoal7);
-		String msg7 = "(..3..)";
+		String msg7 = "I (..7..) the Kartini road when it began to rain.";
 		soal7.setText(msg7);
 
 		TextView soal8 = (TextView) findViewById(R.id.textViewSoal8);
-		String msg8 = "(..3..)";
+		String msg8 = "He (..8..) my car before i left it.";
 		soal8.setText(msg8);
 
 		TextView soal9 = (TextView) findViewById(R.id.textViewSoal9);
-		String msg9 = "What is the purpose of the text? It is to...";
+		String msg9 = "What is the purpose of the text? It is to (..9..)";
 		soal9.setText(msg9);
 
 		TextView soal10 = (TextView) findViewById(R.id.textViewSoal10);
-		String msg10 = "Annes is one of the… of George VI";
+		String msg10 = "Annes is one of the (..10..) of George VI";
 		soal10.setText(msg10);
 
 		pilihan = (RadioGroup) findViewById(R.id.radioGroup1);
@@ -120,43 +122,57 @@ public class Tab_lat_tenses1_soal extends Activity implements
 				// TODO Auto-generated method stub
 				koreksi();
 				hasil.setText("Your Score: " + nilai);
+				kosongkan();
 			}
 
 		});
 
 	}
+	
+	private void kosongkan(){
+		pilihan.clearCheck();
+		pilihan2.clearCheck();
+		pilihan3.clearCheck();
+		pilihan4.clearCheck();
+		pilihan5.clearCheck();
+		pilihan6.clearCheck();
+		pilihan7.clearCheck();
+		pilihan8.clearCheck();
+		pilihan9.clearCheck();
+		pilihan10.clearCheck();
+	}
 
 	private void koreksi() {
 		// TODO Auto-generated method stub
-		if (pilihan.getCheckedRadioButtonId() == R.id.radio2) {
+		if (pilihan.getCheckedRadioButtonId() == R.id.radio1) {
 			jawaban.setText("Right");
-			nilai += 10;
+			nilai += 10;			
 		} else {
 			jawaban.setText("Wrong");
 		}
 
-		if (pilihan2.getCheckedRadioButtonId() == R.id.radio6) {
+		if (pilihan2.getCheckedRadioButtonId() == R.id.radio5) {
 			jawaban2.setText("Right");
 			nilai += 10;
 		} else {
 			jawaban2.setText("Wrong");
 		}
 
-		if (pilihan3.getCheckedRadioButtonId() == R.id.radio10) {
+		if (pilihan3.getCheckedRadioButtonId() == R.id.radio9) {
 			jawaban3.setText("Right");
 			nilai += 10;
 		} else {
 			jawaban3.setText("Wrong");
 		}
 
-		if (pilihan4.getCheckedRadioButtonId() == R.id.radio15) {
+		if (pilihan4.getCheckedRadioButtonId() == R.id.radio12) {
 			jawaban4.setText("Right");
 			nilai += 10;
 		} else {
 			jawaban4.setText("Wrong");
 		}
 
-		if (pilihan5.getCheckedRadioButtonId() == R.id.radio19) {
+		if (pilihan5.getCheckedRadioButtonId() == R.id.radio18) {
 			jawaban5.setText("Right");
 			nilai += 10;
 		} else {
@@ -170,7 +186,7 @@ public class Tab_lat_tenses1_soal extends Activity implements
 			jawaban6.setText("Wrong");
 		}
 
-		if (pilihan7.getCheckedRadioButtonId() == R.id.radio27) {
+		if (pilihan7.getCheckedRadioButtonId() == R.id.radio25) {
 			jawaban7.setText("Right");
 			nilai += 10;
 		} else {

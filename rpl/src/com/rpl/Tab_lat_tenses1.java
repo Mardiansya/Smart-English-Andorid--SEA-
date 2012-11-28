@@ -24,7 +24,7 @@ public class Tab_lat_tenses1 extends TabActivity {
 
 		TabSpec petunjukSpec = tabHost.newTabSpec("Soal");
 		petunjukSpec.setIndicator("Soal",
-				getResources().getDrawable(R.drawable.tulis));
+				getResources().getDrawable(R.drawable.pilgan));
 		Intent petunjukIntent = new Intent(this,Tab_lat_tenses1_soal.class);
 		petunjukSpec.setContent(petunjukIntent);
 

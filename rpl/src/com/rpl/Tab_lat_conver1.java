@@ -21,9 +21,9 @@ OnCheckedChangeListener {
 	EditText pilihan3, pilihan5, pilihan7, pilihan10;
 	int nilai = 0;
 		
-	String kunci_pilihan3="like";
-	String kunci_pilihan5="like";
-	String kunci_pilihan7="like";
+	String kunci_pilihan3="airport";
+	String kunci_pilihan5="yes,he can";
+	String kunci_pilihan7="faris";
 	String kunci_pilihan10="like";
 	String Spilihan3, Spilihan5, Spilihan7, Spilihan10;
 	
@@ -37,43 +37,43 @@ OnCheckedChangeListener {
 		setContentView(R.layout.tab_lat_conver1);
 		
 		TextView soal1 = (TextView) findViewById(R.id.textViewSoal);
-		String msg = "(..1..)";
+		String msg = "What verb that is used by the first speaker?";
 		soal1.setText(msg);
 
 		TextView soal2 = (TextView) findViewById(R.id.textViewSoal2);
-		String msg2 = "(..2..)";
+		String msg2 = "What does the second speaker say?";
 		soal2.setText(msg2);
 
 		TextView soal3 = (TextView) findViewById(R.id.textViewSoal3);
-		String msg3 = "(..3..)";
+		String msg3 = "Where will the speaker go?";
 		soal3.setText(msg3);
 
 		TextView soal4 = (TextView) findViewById(R.id.textViewSoal4);
-		String msg4 = "(..3..)";
+		String msg4 = "What does the first speaker want?";
 		soal4.setText(msg4);
 
 		TextView soal5 = (TextView) findViewById(R.id.textViewSoal5);
-		String msg5 = "(..3..)";
+		String msg5 = "Does the second speaker can help her? (yes,he can/no,he can't)";
 		soal5.setText(msg5);
 
 		TextView soal6 = (TextView) findViewById(R.id.textViewSoal6);
-		String msg6 = "(..3..)";
+		String msg6 = "What verb that is used by the speaker?";
 		soal6.setText(msg6);
 
 		TextView soal7 = (TextView) findViewById(R.id.textViewSoal7);
-		String msg7 = "(..3..)";
+		String msg7 = "Who can speak english?";
 		soal7.setText(msg7);
 
 		TextView soal8 = (TextView) findViewById(R.id.textViewSoal8);
-		String msg8 = "(..3..)";
+		String msg8 = "What is the speaker talk about?";
 		soal8.setText(msg8);
 
 		TextView soal9 = (TextView) findViewById(R.id.textViewSoal9);
-		String msg9 = "Complete the sentence! (..9..)";
+		String msg9 = "What languages that she can speak?";
 		soal9.setText(msg9);
 
 		TextView soal10 = (TextView) findViewById(R.id.textViewSoal10);
-		String msg10 = "Complete the sentence! (..10..)";
+		String msg10 = "What is the synonim of speak?";
 		soal10.setText(msg10);
 		
 		pilihan = (RadioGroup) findViewById(R.id.radioGroup1);
@@ -184,7 +184,7 @@ OnCheckedChangeListener {
 	
 	private void koreksi() {
 		// TODO Auto-generated method stub
-		if (pilihan.getCheckedRadioButtonId() == R.id.radio0) {
+		if (pilihan.getCheckedRadioButtonId() == R.id.radio2) {
 			jawaban.setText("Right");
 			nilai += 10;
 		} else {
@@ -205,21 +205,21 @@ OnCheckedChangeListener {
 			jawaban4.setText("Wrong");
 		}		
 
-		if (pilihan6.getCheckedRadioButtonId() == R.id.radio12) {
+		if (pilihan6.getCheckedRadioButtonId() == R.id.radio13) {
 			jawaban6.setText("Right");
 			nilai += 10;
 		} else {
 			jawaban6.setText("Wrong");
 		}	
 
-		if (pilihan8.getCheckedRadioButtonId() == R.id.radio16) {
+		if (pilihan8.getCheckedRadioButtonId() == R.id.radio17) {
 			jawaban8.setText("Right");
 			nilai += 10;
 		} else {
 			jawaban8.setText("Wrong");
 		}
 
-		if (pilihan9.getCheckedRadioButtonId() == R.id.radio20) {
+		if (pilihan9.getCheckedRadioButtonId() == R.id.radio22) {
 			jawaban9.setText("Right");
 			nilai += 10;
 		} else {

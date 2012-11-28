@@ -29,35 +29,35 @@ public class Tab_lat_tenses2_soal extends Activity implements
 		setContentView(R.layout.tab_lat_tenses2_soal);
 
 		TextView soal1 = (TextView) findViewById(R.id.textViewSoal);
-		String msg = "(..1..)";
+		String msg = "Does (..1..) need any paper?";
 		soal1.setText(msg);
 
 		TextView soal2 = (TextView) findViewById(R.id.textViewSoal2);
-		String msg2 = "(..2..)";
+		String msg2 = "I (..2..) of going to Singapore.";
 		soal2.setText(msg2);
 
 		TextView soal3 = (TextView) findViewById(R.id.textViewSoal3);
-		String msg3 = "(..3..)";
+		String msg3 = "Ana had been (..3..) when I called her";
 		soal3.setText(msg3);
 
 		TextView soal4 = (TextView) findViewById(R.id.textViewSoal4);
-		String msg4 = "(..3..)";
+		String msg4 = "We (..4..) watching at 7 p.m tonight.";
 		soal4.setText(msg4);
 
 		TextView soal5 = (TextView) findViewById(R.id.textViewSoal5);
-		String msg5 = "(..3..)";
+		String msg5 = "Will I have (..5..) by the time they visit me?";
 		soal5.setText(msg5);
 
 		TextView soal6 = (TextView) findViewById(R.id.textViewSoal6);
-		String msg6 = "(..3..)";
+		String msg6 = "What’s funny? Why (..6..) you laughing?";
 		soal6.setText(msg6);
 
 		TextView soal7 = (TextView) findViewById(R.id.textViewSoal7);
-		String msg7 = "(..3..)";
+		String msg7 = "When I returned home after 20 years, everything had (..7..)";
 		soal7.setText(msg7);
 
 		TextView soal8 = (TextView) findViewById(R.id.textViewSoal8);
-		String msg8 = "(..3..)";
+		String msg8 = "I (..8..) out last night. I was too tired.";
 		soal8.setText(msg8);
 
 		TextView soal9 = (TextView) findViewById(R.id.textViewSoal9);
@@ -120,10 +120,24 @@ public class Tab_lat_tenses2_soal extends Activity implements
 				// TODO Auto-generated method stub
 				koreksi();
 				hasil.setText("Your Score: " + nilai);
+				kosongkan();
 			}
 
 		});
 
+	}
+	
+	private void kosongkan(){
+		pilihan.clearCheck();
+		pilihan2.clearCheck();
+		pilihan3.clearCheck();
+		pilihan4.clearCheck();
+		pilihan5.clearCheck();
+		pilihan6.clearCheck();
+		pilihan7.clearCheck();
+		pilihan8.clearCheck();
+		pilihan9.clearCheck();
+		pilihan10.clearCheck();
 	}
 
 	private void koreksi() {
@@ -149,35 +163,35 @@ public class Tab_lat_tenses2_soal extends Activity implements
 			jawaban3.setText("Wrong");
 		}
 
-		if (pilihan4.getCheckedRadioButtonId() == R.id.radio15) {
+		if (pilihan4.getCheckedRadioButtonId() == R.id.radio14) {
 			jawaban4.setText("Right");
 			nilai += 10;
 		} else {
 			jawaban4.setText("Wrong");
 		}
 
-		if (pilihan5.getCheckedRadioButtonId() == R.id.radio19) {
+		if (pilihan5.getCheckedRadioButtonId() == R.id.radio17) {
 			jawaban5.setText("Right");
 			nilai += 10;
 		} else {
 			jawaban5.setText("Wrong");
 		}
 
-		if (pilihan6.getCheckedRadioButtonId() == R.id.radio23) {
+		if (pilihan6.getCheckedRadioButtonId() == R.id.radio22) {
 			jawaban6.setText("Right");
 			nilai += 10;
 		} else {
 			jawaban6.setText("Wrong");
 		}
 
-		if (pilihan7.getCheckedRadioButtonId() == R.id.radio27) {
+		if (pilihan7.getCheckedRadioButtonId() == R.id.radio26) {
 			jawaban7.setText("Right");
 			nilai += 10;
 		} else {
 			jawaban7.setText("Wrong");
 		}
 
-		if (pilihan8.getCheckedRadioButtonId() == R.id.radio31) {
+		if (pilihan8.getCheckedRadioButtonId() == R.id.radio30) {
 			jawaban8.setText("Right");
 			nilai += 10;
 		} else {
@@ -187,6 +201,7 @@ public class Tab_lat_tenses2_soal extends Activity implements
 		if (pilihan9.getCheckedRadioButtonId() == R.id.radio35) {
 			jawaban9.setText("Right");
 			nilai += 10;
+			
 		} else {
 			jawaban9.setText("Wrong");
 		}

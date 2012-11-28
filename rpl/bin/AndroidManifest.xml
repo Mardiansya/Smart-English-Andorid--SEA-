@@ -69,9 +69,15 @@
         <activity android:name=".Conversation_4" android:label="Conversation 4"/>
         <activity android:name=".Conversation_5" android:label="Conversation 5"/>
 	        
-        <activity android:name=".Tab_lat_tenses1" android:label="Paket Soal Tenses 1"/>
+        <activity android:name=".Tab_lat_tenses1" android:label="Paket Soal Tenses And Reading I"/>
         <activity android:name=".Tab_lat_tenses1_soal" />
         <activity android:name=".Tab_lat_tenses1_text" />
+        <activity android:name=".Tab_lat_tenses2" android:label="Paket Soal Tenses And Reading II"/>
+        <activity android:name=".Tab_lat_tenses2_soal" />
+        <activity android:name=".Tab_lat_tenses2_text" />
+        
+        <activity android:name=".Tab_lat_conver1" android:label="Paket Soal So And Too"/>
+        <activity android:name=".Tab_lat_conver2" android:label="Paket Soal Either And Neither"/>
         
         
         <activity android:name=".Tab_ban_petunjuk" android:label="Petunjuk"/>

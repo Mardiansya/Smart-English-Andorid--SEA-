@@ -110,9 +110,9 @@ public class Tab_read1_soal extends Activity implements OnCheckedChangeListener{
 	
 	private void koreksi3() {
 		// TODO Auto-generated method stub
-		if(pilihan3.getCheckedRadioButtonId() == R.id.radio10){
+		if(pilihan3.getCheckedRadioButtonId() == R.id.radio11){
 			Toast.makeText(this, "Jawaban Benar", Toast.LENGTH_SHORT).show();
-			jawaban3.setText("The Answer: There sheiks");			
+			jawaban3.setText("The Answer: Suitors");			
 		} else {
 			Toast.makeText(this, "Jawaban salah", Toast.LENGTH_SHORT).show();
 			jawaban3.setText("You can answer again!");

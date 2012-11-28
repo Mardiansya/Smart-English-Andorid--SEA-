@@ -57,28 +57,28 @@
                         android:id="@+id/radio0"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Easy"
+                        android:text="come"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Easier"
+                        android:text="comes"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Easiest"
+                        android:text="coming"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="More easy"
+                        android:text="came"
                         android:textColor="@color/putih" />
                 </RadioGroup>
             </LinearLayout>
@@ -109,28 +109,28 @@
                         android:id="@+id/radio4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="But"
+                        android:text="To Buy"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="However"
+                        android:text="Buy"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Although"
+                        android:text="Buys"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Therefore"
+                        android:text="Bought"
                         android:textColor="@color/putih" />
                 </RadioGroup>
             </LinearLayout>
@@ -161,28 +161,28 @@
                         android:id="@+id/radio8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Call"
+                        android:text="Am known"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Calls"
+                        android:text="Have known"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio10"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Called"
+                        android:text="Am knowing"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio11"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Calling"
+                        android:text="Knew"
                         android:textColor="@color/putih" />
                 </RadioGroup>
             </LinearLayout>
@@ -213,28 +213,28 @@
                         android:id="@+id/radio12"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Call"
+                        android:text="Are leaving"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio13"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Calls"
+                        android:text="Are leave"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio14"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Called"
+                        android:text="Leaving"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio15"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Calling"
+                        android:text="Have left"
                         android:textColor="@color/putih" />
                 </RadioGroup>
             </LinearLayout>
@@ -265,28 +265,28 @@
                         android:id="@+id/radio16"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Call"
+                        android:text="Will finish"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio17"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Calls"
+                        android:text="Finished"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio18"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Called"
+                        android:text="Finish"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio19"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Calling"
+                        android:text="Would finish"
                         android:textColor="@color/putih" />
                 </RadioGroup>
             </LinearLayout>
@@ -317,28 +317,28 @@
                         android:id="@+id/radio20"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Call"
+                        android:text="Are"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio21"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Calls"
+                        android:text="Were"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio22"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Called"
+                        android:text="Do"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio23"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Calling"
+                        android:text="Did"
                         android:textColor="@color/putih" />
                 </RadioGroup>
             </LinearLayout>
@@ -369,28 +369,28 @@
                         android:id="@+id/radio24"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Call"
+                        android:text="Am walking down"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio25"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Calls"
+                        android:text="Was walking down"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio26"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Called"
+                        android:text="Would walk down"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio27"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Calling"
+                        android:text="Have been walking"
                         android:textColor="@color/putih" />
                 </RadioGroup>
             </LinearLayout>
@@ -421,28 +421,28 @@
                         android:id="@+id/radio28"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Call"
+                        android:text="Lock"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio29"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Calls"
+                        android:text="Locked"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio30"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Called"
+                        android:text="Locking"
                         android:textColor="@color/putih" />
 
                     <RadioButton
                         android:id="@+id/radio31"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Calling"
+                        android:text="Had Locked"
                         android:textColor="@color/putih" />
                 </RadioGroup>
             </LinearLayout>
