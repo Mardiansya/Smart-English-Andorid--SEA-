@@ -138,6 +138,16 @@ OnCheckedChangeListener {
 
 		});
 		
+		Button conver5 = (Button) findViewById(R.id.buttonConver5);
+		conver5.setOnClickListener(new OnClickListener() {
+
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				playSound(5);
+			}
+
+		});
+
 		hasil = (TextView) findViewById(R.id.textViewHasil);
 		jawaban = (TextView) findViewById(R.id.textViewAnswer);
 		jawaban2 = (TextView) findViewById(R.id.textViewAnswer2);

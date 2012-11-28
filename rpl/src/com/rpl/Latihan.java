@@ -33,7 +33,7 @@ public class Latihan extends ListActivity {
 			i = new Intent(this, Tab_lat_tenses2.class);
 			startActivity(i);			
 		} else if (tampil == "So & Too") {
-			i = new Intent(this, Tab_lat_conver1.class);
+			i = new Intent(this, Tab_lat_conver.class);
 			startActivity(i);
 		} else if (tampil == "Either & Neither") {
 			i = new Intent(this, Tab_lat_conver2.class);

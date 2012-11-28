@@ -76,7 +76,7 @@
         <activity android:name=".Tab_lat_tenses2_soal" />
         <activity android:name=".Tab_lat_tenses2_text" />
         
-        <activity android:name=".Tab_lat_conver1" android:label="Paket Soal So And Too"/>
+        <activity android:name=".Tab_lat_conver" android:label="Paket Soal So And Too"/>
         <activity android:name=".Tab_lat_conver2" android:label="Paket Soal Either And Neither"/>
         
         
