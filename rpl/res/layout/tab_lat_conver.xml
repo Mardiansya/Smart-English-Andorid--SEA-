@@ -103,15 +103,15 @@
                         android:textColor="@color/putih" />
                 </RadioGroup>
             </LinearLayout>
-            
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:background="@color/biru"
-                android:orientation="vertical" >            
-            
-			<TextView
+                android:orientation="vertical" >
+
+                <TextView
                     android:id="@+id/textViewSoal2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -156,7 +156,6 @@
                 </RadioGroup>
             </LinearLayout>
 
-            
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -202,14 +201,15 @@
                     android:text="Klik Button untuk Memulai"
                     android:textSize="15dp" />
             </LinearLayout>
-			            <LinearLayout
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:background="@color/biru"
-                android:orientation="vertical" >            
-            
-			<TextView
+                android:orientation="vertical" >
+
+                <TextView
                     android:id="@+id/textViewSoal4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -219,7 +219,7 @@
                     android:textSize="20dp" />
 
                 <RadioGroup
-                    android:id="@+id/radioGroup5"
+                    android:id="@+id/radioGroup4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp" >
@@ -253,6 +253,7 @@
                         android:textColor="@color/putih" />
                 </RadioGroup>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -276,8 +277,7 @@
                     android:layout_marginLeft="5dp"
                     android:width="240dp" />
             </LinearLayout>
-            
-               
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -299,6 +299,7 @@
                     android:text="Klik Button untuk Memulai"
                     android:textSize="15dp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -306,7 +307,7 @@
                 android:background="@color/biru"
                 android:orientation="vertical" >
 
-			 <TextView
+                <TextView
                     android:id="@+id/textViewSoal6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -350,6 +351,7 @@
                         android:textColor="@color/putih" />
                 </RadioGroup>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -395,7 +397,8 @@
                     android:text="Klik Button untuk Memulai"
                     android:textSize="15dp" />
             </LinearLayout>
-			 <LinearLayout
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
@@ -446,7 +449,7 @@
                         android:textColor="@color/putih" />
                 </RadioGroup>
             </LinearLayout>
-            	            
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -639,7 +642,6 @@
                     android:textSize="20dp" />
             </LinearLayout>
         </LinearLayout>
-        
     </ScrollView>
 
 </LinearLayout>

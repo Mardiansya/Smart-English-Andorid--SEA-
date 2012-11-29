@@ -20,6 +20,7 @@ public class Tab_lat_tenses2_soal extends Activity implements
 			jawaban7, jawaban8, jawaban9, jawaban10;
 	RadioGroup pilihan, pilihan2, pilihan3, pilihan4, pilihan5, pilihan6,
 			pilihan7, pilihan8, pilihan9, pilihan10;
+	Button jawab, reset;
 	int nilai = 0;
 
 	@Override
@@ -113,21 +114,34 @@ public class Tab_lat_tenses2_soal extends Activity implements
 		jawaban9 = (TextView) findViewById(R.id.textViewAnswer9);
 		jawaban10 = (TextView) findViewById(R.id.textViewAnswer10);
 
-		Button jawab = (Button) findViewById(R.id.buttonSubmit);
+		jawab = (Button) findViewById(R.id.buttonSubmit);
 		jawab.setOnClickListener(new View.OnClickListener() {
 
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				koreksi();
+				hasil.setText("Your Score: " + nilai);				
+				jawab.setEnabled(false);
+			}
+
+		});
+		
+		reset = (Button) findViewById(R.id.buttonReset);
+		reset.setOnClickListener(new View.OnClickListener() {
+
+			public void onClick(View v) {
+				// TODO Auto-generated method stub							
+				kosongkan();				
+				nilai = 0;				
 				hasil.setText("Your Score: " + nilai);
-				kosongkan();
+				jawab.setEnabled(true);
 			}
 
 		});
 
 	}
 	
-	private void kosongkan(){
+	private void kosongkan(){		
 		pilihan.clearCheck();
 		pilihan2.clearCheck();
 		pilihan3.clearCheck();

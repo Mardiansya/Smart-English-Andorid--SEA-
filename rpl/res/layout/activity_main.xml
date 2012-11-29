@@ -3,15 +3,31 @@
     android:id="@+id/LinearLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@drawable/home" >
-
+    android:background="@drawable/home"
+    android:orientation="vertical" >
+
+        
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="150dp" >
+    
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:src="@drawable/menu" />
+        
+    </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="left"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="210dp" >
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp" >
 
         <Button
             android:id="@+id/button_materi"
@@ -32,6 +48,20 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:background="@drawable/button_help" />
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"                
+        
+        android:layout_marginTop="10dp" >
+    
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:src="@drawable/nama_menu" />
+        
     </LinearLayout>
 
 </LinearLayout>
