@@ -85,7 +85,7 @@
         <activity android:name=".Tab_ban_pelatihan" />
         <activity android:name=".Tab_ban_penjawab" />
         <activity android:name=".Tab_ban_about" android:label="About SEA"/>
-       	<activity android:name=".Tab_ban_asoft" />
+       	<activity android:name=".Tab_ban_asoft"/>
        	<activity android:name=".Tab_ban_amaker" />
         
     </application>

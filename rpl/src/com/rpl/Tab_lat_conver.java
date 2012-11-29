@@ -19,6 +19,7 @@ OnCheckedChangeListener {
 		jawaban7, jawaban8, jawaban9, jawaban10;	
 	RadioGroup pilihan, pilihan2, pilihan4, pilihan6, pilihan8, pilihan9;
 	EditText pilihan3, pilihan5, pilihan7, pilihan10;
+	Button jawab, reset;
 	int nilai = 0;
 		
 	String kunci_pilihan3="airport";
@@ -150,16 +151,31 @@ OnCheckedChangeListener {
 		jawaban9 = (TextView) findViewById(R.id.textViewAnswer9);
 		jawaban10 = (TextView) findViewById(R.id.textViewAnswer10);
 
-		Button jawab = (Button) findViewById(R.id.buttonSubmit);
+		jawab = (Button) findViewById(R.id.buttonSubmit);
 		jawab.setOnClickListener(new View.OnClickListener() {
 
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				koreksi();
 				hasil.setText("Your Score: " + nilai);
+				jawab.setEnabled(false);
 			}
 
 		});
+		
+		reset = (Button) findViewById(R.id.buttonReset);
+		reset.setOnClickListener(new View.OnClickListener() {
+
+			public void onClick(View v) {
+				// TODO Auto-generated method stub							
+				kosongkan();				
+				nilai = 0;				
+				hasil.setText("Your Score: " + nilai);
+				jawab.setEnabled(true);
+			}
+
+		});
+
 
 	}
 	
@@ -257,6 +273,20 @@ OnCheckedChangeListener {
 			jawaban10.setText("Wrong");
 		}
 	}
+	
+	private void kosongkan(){
+		pilihan.clearCheck();
+		pilihan2.clearCheck();
+		pilihan3.setText(null);
+		pilihan4.clearCheck();
+		pilihan5.setText(null);
+		pilihan6.clearCheck();
+		pilihan7.setText(null);
+		pilihan8.clearCheck();
+		pilihan9.clearCheck();
+		pilihan10.setText(null);
+	}
+
 
 	public void onCheckedChanged(RadioGroup arg0, int arg1) {
 		// TODO Auto-generated method stub

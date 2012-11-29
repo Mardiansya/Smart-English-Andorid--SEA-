@@ -526,14 +526,25 @@
             android:background="@color/biru"
             android:orientation="vertical" >
 
-            <Button
-                android:id="@+id/buttonSubmit"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:text="Lihat Hasil"
-                android:width="140dp" />
-
+                android:orientation="horizontal" >
+                <Button
+                    android:id="@+id/buttonSubmit"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Lihat Hasil"
+                    android:width="140dp" />
+                <Button
+                    android:id="@+id/buttonReset"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Ulangi"
+                    android:width="140dp" />
+				</LinearLayout>
             <TextView
                 android:id="@+id/textViewHasil"
                 android:layout_width="wrap_content"
