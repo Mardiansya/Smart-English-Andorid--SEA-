@@ -6,7 +6,8 @@ mohon bapak membuka link repository di bawah ini pak
 
 https://github.com/mardiansya20/Smart-English-Andorid--SEA-.git
 
-karena di repository ini hanya terdapat file design.docx (yang saya upload) yang terpisah dengan folder project/docs
-kami mohon maaf atas kesalahan teknis ini pak.
-
+karena di repository ini (https://github.com/mardiansya/Smart-English-Andorid--SEA-.git)
+hanya terdapat file design.docx (yang saya upload) yang terpisah dengan folder project/docs
+kami memohon maaf atas kesalahan teknis ini pak.
+terimakasih banyak bapak.
 Wasalam.
