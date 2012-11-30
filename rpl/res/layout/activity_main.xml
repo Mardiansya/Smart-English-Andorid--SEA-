@@ -6,62 +6,70 @@
     android:background="@drawable/home"
     android:orientation="vertical" >
 
-        
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="150dp" >
-    
-        <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="300dp"
-        android:layout_height="40dp"
-        android:src="@drawable/menu" />
-        
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:layout_marginLeft="35dp"
-        android:layout_marginTop="20dp" >
-
-        <Button
-            android:id="@+id/button_materi"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:layout_marginRight="22dp"
-            android:background="@drawable/button_materi" />
-
-        <Button
-            android:id="@+id/button_latihan"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:layout_marginRight="18dp"
-            android:background="@drawable/button_latihan" />
-
-        <Button
-            android:id="@+id/button_help"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:background="@drawable/button_help" />
-    </LinearLayout>
-    
-     <LinearLayout
+    <ScrollView
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"                
-        
-        android:layout_marginTop="10dp" >
-    
-        <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="330dp"
-        android:layout_height="40dp"
-        android:src="@drawable/nama_menu" />
-        
-    </LinearLayout>
+        android:layout_height="0px"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="150dp" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/menu" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="20dp" >
+
+                <Button
+                    android:id="@+id/button_materi"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginRight="22dp"
+                    android:background="@drawable/button_materi" />
+
+                <Button
+                    android:id="@+id/button_latihan"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginRight="18dp"
+                    android:background="@drawable/button_latihan" />
+
+                <Button
+                    android:id="@+id/button_help"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/button_help" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="330dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/nama_menu" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

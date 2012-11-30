@@ -42,16 +42,17 @@ public class Materi extends TabActivity {
 		tabHost.addTab(converSpec);		
 	}
 	
-	 @Override
+	/** @Override
 	    public boolean onCreateOptionsMenu(Menu menu) {
 	    	 MenuInflater menuInflater = getMenuInflater();
 	         menuInflater.inflate(R.menu.menu, menu);
 	         return true;
-	    }
+	    }*/
 	    /**
 	     * Event Handling for Individual menu item selected
 	     * Identify single menu item by it's id
 	     * */
+	/**
 	    @Override
 	    public boolean onOptionsItemSelected(MenuItem item)
 	    {
@@ -75,5 +76,5 @@ public class Materi extends TabActivity {
 	        default:
 	            return super.onOptionsItemSelected(item);
 	        }
-	    }    
+	    }*/    
 }

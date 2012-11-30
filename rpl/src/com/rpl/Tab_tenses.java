@@ -18,9 +18,7 @@ public class Tab_tenses extends ListActivity {
 			"Present Continues", "Present Perfect",
 			"Present Perfect Continues", "Simple Past", "Past Continues",
 			"Past Perfect", "Past Perfect Continues", "Simple Future",
-			"Future Continues", "Future Perfect", "Future Perfect Continues",
-			"Past Future", "Past Future Continues", "Past Future Perfect",
-			"Past Future Perfect Continues" };
+			"Future Continues", "Future Perfect", "Future Perfect Continues"};
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

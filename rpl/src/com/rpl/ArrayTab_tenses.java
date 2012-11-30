@@ -56,15 +56,7 @@ public class ArrayTab_tenses extends ArrayAdapter<String> {
 		} else if (s.equals("Future Perfect")) {
 			imageView.setImageResource(R.drawable.tenses);
 		} else if (s.equals("Future Perfect Continues")) {
-			imageView.setImageResource(R.drawable.tenses);
-		} else if (s.equals("Past Future")) {
-			imageView.setImageResource(R.drawable.tenses);
-		} else if (s.equals("Past Future Continues")) {
-			imageView.setImageResource(R.drawable.tenses);
-		} else if (s.equals("Past Future Perfect")) {
-			imageView.setImageResource(R.drawable.tenses);
-		} else if (s.equals("Past Future Perfect Continues")) {
-			imageView.setImageResource(R.drawable.tenses);
+			imageView.setImageResource(R.drawable.tenses);		
 		} else {
 			imageView.setImageResource(R.drawable.help);
 		}

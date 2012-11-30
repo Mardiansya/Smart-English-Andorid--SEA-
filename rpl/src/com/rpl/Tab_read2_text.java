@@ -14,7 +14,7 @@ public class Tab_read2_text extends Activity{
 		TextView teks = (TextView) findViewById (R.id.textView1);
 		String msg = "    A petrol car engine converts petrol into motion so that the car can move. "+
 						"The (..1..) way to do that is to burn the petrol inside an egine (..2..), a car engine is an internal combustion engine – combustion takes place internally. "+ 
-						"Almost all cars currently use what \n is (..3..) a four";					
+						"Almost all cars currently use what is (..3..) a four";					
 		teks.setText(msg);
 	}
 }
